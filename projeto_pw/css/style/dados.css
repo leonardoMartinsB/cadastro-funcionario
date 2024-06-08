@@ -1,0 +1,39 @@
+body {
+    background: url('../../img/fundo.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Nunito', sans-serif;
+    color: #333;
+    padding-top: 20px;
+}
+.card {
+    background-color: #ffffff;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.data-header {
+    font-size: 24px;
+    color: #007bff;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+.info-item {
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+}
+.info-item:last-child {
+    border-bottom: none;
+}
+.img-card img {
+    width: 100%;
+    height: auto;
+    object-fit: contain; /* Assegura que a imagem seja redimensionada adequadamente dentro do card */
+}
+.btn-back {
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+}

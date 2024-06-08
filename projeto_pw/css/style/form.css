@@ -1,0 +1,39 @@
+body {
+    background: url('../../img/fundo.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Nunito', sans-serif;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: flex-start; /* Muda de center para flex-start para alinhar no início da área disponível */
+    justify-content: center; /* Centraliza horizontalmente */
+    padding-top: 70px; /* Ajuste conforme a altura da navbar */
+    overflow: hidden; /* Previne o scroll vertical */
+}
+.navbar {
+    background-color: #343a40; /* Cor mais escura para a navbar */
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+.navbar-brand {
+    color: #ffffff;
+}
+.container {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px; /* Limita a largura máxima do formulário */
+    margin-top: 20px; /* Espaço adicional abaixo do navbar */
+}
+.form-control, .btn {
+    margin-bottom: 1rem;
+}
+.btn-container {
+    display: flex;
+    justify-content: center; /* Centraliza os botões */
+    gap: 10px; /* Espaçamento entre os botões */
+}
